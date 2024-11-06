@@ -1,6 +1,5 @@
-## Global Electronics Retail
-
-![image](https://github.com/user-attachments/assets/7e06c53a-2341-4f67-9ac4-5437c9c5bdc1)
+## Global Electronics Retail																			
+![image](https://github.com/user-attachments/assets/4b709a7d-7d1c-4be3-8269-8158d383f7f6)
 
 ##
 
