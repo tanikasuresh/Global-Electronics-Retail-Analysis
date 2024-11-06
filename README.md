@@ -2,6 +2,8 @@
 
 ![image](https://github.com/user-attachments/assets/7e06c53a-2341-4f67-9ac4-5437c9c5bdc1)
 
+##
+
 ### The following data set consists of various sales-related data for a Global Electronics Retail Company. 
 
 #### The data set is comprised of four tables consisting of Sales, Products, Customers, and Store information.
