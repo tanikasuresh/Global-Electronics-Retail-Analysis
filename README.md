@@ -3,9 +3,9 @@
 
 ##
 
-### The following data set consists of various sales-related data for a Global Electronics Retail Company. 
+The following data set consists of various sales-related data for a Global Electronics Retail Company. 
 
-#### The data set is comprised of four tables consisting of Sales, Products, Customers, and Store information.
+The data set is comprised of four tables consisting of Sales, Products, Customers, and Store information.
 
 #### Here is a summary of the tables and their attributes . . . 
 ![](https://github.com/tanikasuresh/Global-Electronics-Retail-Analysis/blob/main/Miscellaneous/Entity%20Relationship%20Diagram.png)
@@ -31,7 +31,7 @@ Using this table, I utilized ```VLOOKUP``` to assign the corresponding Age Group
 
 Lastly, in order to analyze profit, it was necessary to calculate the total profit using the following general calculation for every purchase: (`Unit Price` - `Unit Cost`) * `Quantity`
 
-#### With these changes, we can now analyze the sales data using various relevant attributes.
+With these changes, we can now analyze the sales data using various relevant attributes.
 
 ## Profit Analysis
 
@@ -50,7 +50,7 @@ Here's one example of the ```SUMIF``` function used to calculate the total profi
 
 ```=SUMIF(Sales_Edited!O:O,A19,Sales_Edited!S:S)```
 
-#### Here, we can see that sales in the United States make up the largest portion of sales in all countries. Adding on, the company generates the most revenue from the Computers category. Lastly, profit has increased from 2020 to 2023, with the greatest annual profit during 2023. Most notably, the company experienced the greatest increase in profit in 2022. 
+Here, we can see that sales in the United States make up the largest portion of sales in all countries. Adding on, the company generates the most revenue from the Computers category. Lastly, profit has increased from 2020 to 2023, with the greatest annual profit during 2023. Most notably, the company experienced the greatest increase in profit in 2022. 
 
 ## Customer Analysis
 
@@ -74,7 +74,7 @@ For example:
 
 ```=C34-ROWS(UNIQUE(CHOOSECOLS(FILTER(Sales_Edited!D$2:K$50647,(Sales_Edited!D$2:D$50647=A41)),3),,TRUE))```
 
-#### Here, we see that the number of unique customers per year has increased from 2020 to 2023. Also, the number of customers that shopped at the company more than once per year has also increased from 2020 to 2023.
+Here, we see that the number of unique customers per year has increased from 2020 to 2023. Also, the number of customers that shopped at the company more than once per year has also increased from 2020 to 2023.
 
 #### Moving on to customer demographics . . . 
 
@@ -86,22 +86,22 @@ Here is an example of the functions used to calculate # of Orders for each gende
 Here is a sample calculation to find the average profit:
 ```=AVERAGE(CHOOSECOLS(FILTER(Sales_Edited!H:S,Sales_Edited!H:H="Male"),-1))```
 
-#### Here, we see Male and Female customers make up almost an equal amount of orders. Adding on, and male customers spend slightly more on average.
+Here, we see Male and Female customers make up almost an equal amount of orders. Adding on, and male customers spend slightly more on average.
 
-#### Also, the largest portion of customers are in the 65+ age group, but the 25-34 age group spends the most on average.
+Also, the largest portion of customers are in the 65+ age group, but the 25-34 age group spends the most on average.
 
 ## Product Analysis
 ![image](https://github.com/user-attachments/assets/096d1976-9fbc-4023-a4d7-9c85b0f2c2a5)
 
-#### We can see from the tables that the company sells the most products to customers in the United States, with Online orders being the next. To break it down based on product category, the Computers category sells the most products, with Cell Phones coming in second.
+We can see from the tables that the company sells the most products to customers in the United States, with Online orders being the next. To break it down based on product category, the Computers category sells the most products, with Cell Phones coming in second.
 
-#### However, we can break down those categories further into various subcategories for products to see that the most sold subcategory is Movie DVDs.
+However, we can break down those categories further into various subcategories for products to see that the most sold subcategory is Movie DVDs.
 
 ## Dashboard
 
-### The dashboard at the top reflects a few of the more interesting and relevant data like the total number of unique and returning customers, profit and products sold for different factors like Country and Category, as well as a visual representation of profit for every month of the four years of operation.
+The dashboard at the top reflects a few of the more interesting and relevant data like the total number of unique and returning customers, profit and products sold for different factors like Country and Category, as well as a visual representation of profit for every month of the four years of operation.
 
-### What is truly exciting about the dashboard is that it is dynamic and fully interactive! There are slicers for each of the three portions to help narrow down the data to relevant features like year, gender, age group, category and country. This makes it much easier to track changes in certain demographics and markets for a better understanding of the Global Electronics Retail Company's performance.
+What is truly exciting about the dashboard is that it is dynamic and fully interactive! There are slicers for each of the three portions to help narrow down the data to relevant features like year, gender, age group, category and country. This makes it much easier to track changes in certain demographics and markets for a better understanding of the Global Electronics Retail Company's performance.
 
 
 
